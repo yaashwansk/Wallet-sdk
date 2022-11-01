@@ -117,9 +117,3 @@ print("Transaction ID: " + transaction_id + "\n")
 
 # try to see the transaction in pending transactions
 print("Transaction info:", acl.pending_transaction_info(transaction_id))
-
-# To see the new wallet and accounts that we've created, use goal:
-# $ ./goal wallet list
-# $ ./goal account list
-
-# now write your own!
