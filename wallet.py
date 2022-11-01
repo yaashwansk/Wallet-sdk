@@ -16,11 +16,6 @@ existing_wallet_name = input("Name of an existing wallet? ")
 existing_wallet_pswd = input("Password for " + existing_wallet_name + "? ")
 existing_account = input("Address of an account in the wallet? ")
 
-# or enter info here
-# existing_wallet_name = "unencrypted-default-wallet"
-# existing_wallet_pswd = ""
-# existing_account = "account_address"
-
 # get the wallet ID
 wallets = kcl.list_wallets()
 existing_wallet_id = None
